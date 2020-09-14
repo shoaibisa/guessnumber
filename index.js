@@ -1,10 +1,10 @@
 const msgEl = document.getElementById('msg');
 
-const rand = getRand();
+var rand = getRand();
 
 
 
-console.log('Number ', rand);
+
 //get speaks
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
